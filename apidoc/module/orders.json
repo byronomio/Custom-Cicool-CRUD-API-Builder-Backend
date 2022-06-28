@@ -1,0 +1,1497 @@
+{
+    "type": "post",
+    "url": "/orders/add",
+    "title": "Add Orders.",
+    "version": "0.1.0",
+    "name": "Addorders",
+    "group": "orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Orders unique access-key.</p>"
+          }
+          ,
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Orders unique token.</p>"
+          }
+                  ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Orders Cant be Accessed permission name : api_orders_add"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_id",
+            "description": "<p>Mandatory order_id of Orderss Input Order Id Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_status",
+            "description": "<p>Mandatory order_status of Orderss Input Order Status Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_date",
+            "description": "<p>Mandatory order_date of Orderss Input Order Date Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_last_name",
+            "description": "<p>Mandatory billing_last_name of Orderss Input Billing Last Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_first_name",
+            "description": "<p>Mandatory billing_first_name of Orderss Input Billing First Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_adress_1",
+            "description": "<p>Mandatory shipping_adress_1 of Orderss Input Shipping Adress 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_adress_2",
+            "description": "<p>Mandatory shipping_adress_2 of Orderss Input Shipping Adress 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_city",
+            "description": "<p>Mandatory shipping_city of Orderss Input Shipping City Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_post_code",
+            "description": "<p>Mandatory shipping_post_code of Orderss Input Shipping Post Code Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_state",
+            "description": "<p>Mandatory shipping_state of Orderss Input Shipping State Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_phone",
+            "description": "<p>Mandatory billing_phone of Orderss Input Billing Phone Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Waybill",
+            "description": "<p>Mandatory waybill of Orderss Input Waybill Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_email",
+            "description": "<p>Mandatory billing_email of Orderss Input Billing Email Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_1",
+            "description": "<p>Mandatory product_1 of Orderss Input Product 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_2",
+            "description": "<p>Mandatory product_2 of Orderss Input Product 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_3",
+            "description": "<p>Mandatory product_3 of Orderss Input Product 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_4",
+            "description": "<p>Mandatory product_4 of Orderss Input Product 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_5",
+            "description": "<p>Mandatory product_5 of Orderss Input Product 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_6",
+            "description": "<p>Mandatory product_6 of Orderss Input Product 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_7",
+            "description": "<p>Mandatory product_7 of Orderss Input Product 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_8",
+            "description": "<p>Mandatory product_8 of Orderss Input Product 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_9",
+            "description": "<p>Mandatory product_9 of Orderss Input Product 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_10",
+            "description": "<p>Mandatory product_10 of Orderss Input Product 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_11",
+            "description": "<p>Mandatory product_11 of Orderss Input Product 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_12",
+            "description": "<p>Mandatory product_12 of Orderss Input Product 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_1",
+            "description": "<p>Mandatory price_1 of Orderss Input Price 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_2",
+            "description": "<p>Mandatory price_2 of Orderss Input Price 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_3",
+            "description": "<p>Mandatory price_3 of Orderss Input Price 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_4",
+            "description": "<p>Mandatory price_4 of Orderss Input Price 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_5",
+            "description": "<p>Mandatory price_5 of Orderss Input Price 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_6",
+            "description": "<p>Mandatory price_6 of Orderss Input Price 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_7",
+            "description": "<p>Mandatory price_7 of Orderss Input Price 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_8",
+            "description": "<p>Mandatory price_8 of Orderss Input Price 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_9",
+            "description": "<p>Mandatory price_9 of Orderss Input Price 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_10",
+            "description": "<p>Mandatory price_10 of Orderss Input Price 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_11",
+            "description": "<p>Mandatory price_11 of Orderss Input Price 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_12",
+            "description": "<p>Mandatory price_12 of Orderss Input Price 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_1",
+            "description": "<p>Mandatory product_sku_1 of Orderss Input Product Sku 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_2",
+            "description": "<p>Mandatory product_sku_2 of Orderss Input Product Sku 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_3",
+            "description": "<p>Mandatory product_sku_3 of Orderss Input Product Sku 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_4",
+            "description": "<p>Mandatory product_sku_4 of Orderss Input Product Sku 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_5",
+            "description": "<p>Mandatory product_sku_5 of Orderss Input Product Sku 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_6",
+            "description": "<p>Mandatory product_sku_6 of Orderss Input Product Sku 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_7",
+            "description": "<p>Mandatory product_sku_7 of Orderss Input Product Sku 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_8",
+            "description": "<p>Mandatory product_sku_8 of Orderss Input Product Sku 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_9",
+            "description": "<p>Mandatory product_sku_9 of Orderss Input Product Sku 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_10",
+            "description": "<p>Mandatory product_sku_10 of Orderss Input Product Sku 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_11",
+            "description": "<p>Mandatory product_sku_11 of Orderss Input Product Sku 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_12",
+            "description": "<p>Mandatory product_sku_12 of Orderss Input Product Sku 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_1",
+            "description": "<p>Mandatory item_quantity_1 of Orderss Input Item Quantity 1 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_2",
+            "description": "<p>Mandatory item_quantity_2 of Orderss Input Item Quantity 2 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_3",
+            "description": "<p>Mandatory item_quantity_3 of Orderss Input Item Quantity 3 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_4",
+            "description": "<p>Mandatory item_quantity_4 of Orderss Input Item Quantity 4 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_5",
+            "description": "<p>Mandatory item_quantity_5 of Orderss Input Item Quantity 5 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_6",
+            "description": "<p>Mandatory item_quantity_6 of Orderss Input Item Quantity 6 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_7",
+            "description": "<p>Mandatory item_quantity_7 of Orderss Input Item Quantity 7 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_8",
+            "description": "<p>Mandatory item_quantity_8 of Orderss Input Item Quantity 8 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_9",
+            "description": "<p>Mandatory item_quantity_9 of Orderss Input Item Quantity 9 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_10",
+            "description": "<p>Mandatory item_quantity_10 of Orderss Input Item Quantity 10 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_11",
+            "description": "<p>Mandatory item_quantity_11 of Orderss Input Item Quantity 11 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_12",
+            "description": "<p>Mandatory item_quantity_12 of Orderss Input Item Quantity 12 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_method",
+            "description": "<p>Mandatory shipping_method of Orderss Input Shipping Method Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_cost",
+            "description": "<p>Mandatory shipping_cost of Orderss Input Shipping Cost Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Total_order",
+            "description": "<p>Mandatory total_order of Orderss Input Total Order Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Coupon_used",
+            "description": "<p>Mandatory coupon_used of Orderss Input Coupon Used Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Coupon_discount_amount",
+            "description": "<p>Mandatory coupon_discount_amount of Orderss Input Coupon Discount Amount Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Invoice",
+            "description": "<p>Mandatory invoice of Orderss Input Invoice Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Packing_slip",
+            "description": "<p>Mandatory packing_slip of Orderss Input Packing Slip Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_first_name",
+            "description": "<p>Mandatory shipping_first_name of Orderss Input Shipping First Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_last_name",
+            "description": "<p>Mandatory shipping_last_name of Orderss Input Shipping Last Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Customer_note",
+            "description": "<p>Mandatory customer_note of Orderss Input Customer Note Max Length : 2000..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Note_content",
+            "description": "<p>Mandatory note_content of Orderss Input Note Content Max Length : 4000..</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Orders.php",
+    "groupTitle": "Orders"
+  },
+  {
+    "type": "get",
+    "url": "/orders/all",
+    "title": "Get all Orderss.",
+    "version": "0.1.0",
+    "name": "Allorders",
+    "group": "orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "{} Cant be Accessed permission name : api_Orders_all"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+         
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Field",
+            "defaultValue": "All Field",
+            "description": "<p>Optional field of Orderss.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Start",
+            "defaultValue": "0",
+            "description": "<p>Optional start index of Orderss.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Limit",
+            "defaultValue": "10",
+            "description": "<p>Optional limit data of Orderss.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Orders.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "NoDataOrders",
+            "description": "<p>Orders data is nothing.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Orders.php",
+    "groupTitle": "Orders"
+  },
+  {
+    "type": "post",
+    "url": "/Orders/delete",
+    "title": "Delete Orders.",
+    "version": "0.1.0",
+    "name": "Deleteorders",
+    "group": "orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Orders Cant be Accessed permission name : api_Orders_delete"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Orderss .</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Orders.php",
+    "groupTitle": "Orders"
+  },
+  {
+    "type": "get",
+    "url": "/Orders/detail",
+    "title": "Detail Orders.",
+    "version": "0.1.0",
+    "name": "Detailorders",
+    "group": "orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Orders Cant be Accessed permission name : api_Orders_detail"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Orderss.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Orders.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "OrdersNotFound",
+            "description": "<p>Orders data is not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Orders.php",
+    "groupTitle": "Orders"
+  },
+  {
+    "type": "post",
+    "url": "/Orders/update",
+    "title": "Update Orders.",
+    "version": "0.1.0",
+    "name": "Updateorders",
+    "group": "orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Orders Cant be Accessed permission name : api_Orders_update"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_id",
+            "description": "<p>Mandatory order_id of Orderss Input Order Id Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_status",
+            "description": "<p>Mandatory order_status of Orderss Input Order Status Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Order_date",
+            "description": "<p>Mandatory order_date of Orderss Input Order Date Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_last_name",
+            "description": "<p>Mandatory billing_last_name of Orderss Input Billing Last Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_first_name",
+            "description": "<p>Mandatory billing_first_name of Orderss Input Billing First Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_adress_1",
+            "description": "<p>Mandatory shipping_adress_1 of Orderss Input Shipping Adress 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_adress_2",
+            "description": "<p>Mandatory shipping_adress_2 of Orderss Input Shipping Adress 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_city",
+            "description": "<p>Mandatory shipping_city of Orderss Input Shipping City Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_post_code",
+            "description": "<p>Mandatory shipping_post_code of Orderss Input Shipping Post Code Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_state",
+            "description": "<p>Mandatory shipping_state of Orderss Input Shipping State Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_phone",
+            "description": "<p>Mandatory billing_phone of Orderss Input Billing Phone Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Waybill",
+            "description": "<p>Mandatory waybill of Orderss Input Waybill Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Billing_email",
+            "description": "<p>Mandatory billing_email of Orderss Input Billing Email Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_1",
+            "description": "<p>Mandatory product_1 of Orderss Input Product 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_2",
+            "description": "<p>Mandatory product_2 of Orderss Input Product 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_3",
+            "description": "<p>Mandatory product_3 of Orderss Input Product 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_4",
+            "description": "<p>Mandatory product_4 of Orderss Input Product 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_5",
+            "description": "<p>Mandatory product_5 of Orderss Input Product 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_6",
+            "description": "<p>Mandatory product_6 of Orderss Input Product 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_7",
+            "description": "<p>Mandatory product_7 of Orderss Input Product 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_8",
+            "description": "<p>Mandatory product_8 of Orderss Input Product 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_9",
+            "description": "<p>Mandatory product_9 of Orderss Input Product 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_10",
+            "description": "<p>Mandatory product_10 of Orderss Input Product 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_11",
+            "description": "<p>Mandatory product_11 of Orderss Input Product 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_12",
+            "description": "<p>Mandatory product_12 of Orderss Input Product 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_1",
+            "description": "<p>Mandatory price_1 of Orderss Input Price 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_2",
+            "description": "<p>Mandatory price_2 of Orderss Input Price 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_3",
+            "description": "<p>Mandatory price_3 of Orderss Input Price 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_4",
+            "description": "<p>Mandatory price_4 of Orderss Input Price 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_5",
+            "description": "<p>Mandatory price_5 of Orderss Input Price 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_6",
+            "description": "<p>Mandatory price_6 of Orderss Input Price 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_7",
+            "description": "<p>Mandatory price_7 of Orderss Input Price 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_8",
+            "description": "<p>Mandatory price_8 of Orderss Input Price 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_9",
+            "description": "<p>Mandatory price_9 of Orderss Input Price 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_10",
+            "description": "<p>Mandatory price_10 of Orderss Input Price 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_11",
+            "description": "<p>Mandatory price_11 of Orderss Input Price 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Price_12",
+            "description": "<p>Mandatory price_12 of Orderss Input Price 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_1",
+            "description": "<p>Mandatory product_sku_1 of Orderss Input Product Sku 1 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_2",
+            "description": "<p>Mandatory product_sku_2 of Orderss Input Product Sku 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_3",
+            "description": "<p>Mandatory product_sku_3 of Orderss Input Product Sku 3 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_4",
+            "description": "<p>Mandatory product_sku_4 of Orderss Input Product Sku 4 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_5",
+            "description": "<p>Mandatory product_sku_5 of Orderss Input Product Sku 5 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_6",
+            "description": "<p>Mandatory product_sku_6 of Orderss Input Product Sku 6 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_7",
+            "description": "<p>Mandatory product_sku_7 of Orderss Input Product Sku 7 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_8",
+            "description": "<p>Mandatory product_sku_8 of Orderss Input Product Sku 8 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_9",
+            "description": "<p>Mandatory product_sku_9 of Orderss Input Product Sku 9 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_10",
+            "description": "<p>Mandatory product_sku_10 of Orderss Input Product Sku 10 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_11",
+            "description": "<p>Mandatory product_sku_11 of Orderss Input Product Sku 11 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Product_sku_12",
+            "description": "<p>Mandatory product_sku_12 of Orderss Input Product Sku 12 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_1",
+            "description": "<p>Mandatory item_quantity_1 of Orderss Input Item Quantity 1 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_2",
+            "description": "<p>Mandatory item_quantity_2 of Orderss Input Item Quantity 2 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_3",
+            "description": "<p>Mandatory item_quantity_3 of Orderss Input Item Quantity 3 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_4",
+            "description": "<p>Mandatory item_quantity_4 of Orderss Input Item Quantity 4 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_5",
+            "description": "<p>Mandatory item_quantity_5 of Orderss Input Item Quantity 5 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_6",
+            "description": "<p>Mandatory item_quantity_6 of Orderss Input Item Quantity 6 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_7",
+            "description": "<p>Mandatory item_quantity_7 of Orderss Input Item Quantity 7 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_8",
+            "description": "<p>Mandatory item_quantity_8 of Orderss Input Item Quantity 8 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_9",
+            "description": "<p>Mandatory item_quantity_9 of Orderss Input Item Quantity 9 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_10",
+            "description": "<p>Mandatory item_quantity_10 of Orderss Input Item Quantity 10 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_11",
+            "description": "<p>Mandatory item_quantity_11 of Orderss Input Item Quantity 11 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Item_quantity_12",
+            "description": "<p>Mandatory item_quantity_12 of Orderss Input Item Quantity 12 Max Length : 10..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_method",
+            "description": "<p>Mandatory shipping_method of Orderss Input Shipping Method Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_cost",
+            "description": "<p>Mandatory shipping_cost of Orderss Input Shipping Cost Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Total_order",
+            "description": "<p>Mandatory total_order of Orderss Input Total Order Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Coupon_used",
+            "description": "<p>Mandatory coupon_used of Orderss Input Coupon Used Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Coupon_discount_amount",
+            "description": "<p>Mandatory coupon_discount_amount of Orderss Input Coupon Discount Amount Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Invoice",
+            "description": "<p>Mandatory invoice of Orderss Input Invoice Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Packing_slip",
+            "description": "<p>Mandatory packing_slip of Orderss Input Packing Slip Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_first_name",
+            "description": "<p>Mandatory shipping_first_name of Orderss Input Shipping First Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Shipping_last_name",
+            "description": "<p>Mandatory shipping_last_name of Orderss Input Shipping Last Name Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Customer_note",
+            "description": "<p>Mandatory customer_note of Orderss Input Customer Note Max Length : 2000..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "Note_content",
+            "description": "<p>Mandatory note_content of Orderss Input Note Content Max Length : 4000..</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Orders.php",
+    "groupTitle": "Orders"
+  }

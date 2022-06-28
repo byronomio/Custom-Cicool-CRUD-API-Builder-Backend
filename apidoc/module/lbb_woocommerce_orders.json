@@ -1,0 +1,1133 @@
+{
+    "type": "post",
+    "url": "/lbb_woocommerce_orders/add",
+    "title": "Add Lbb woocommerce orders.",
+    "version": "0.1.0",
+    "name": "Addlbb_woocommerce_orders",
+    "group": "lbb_woocommerce_orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Lbb woocommerce orders unique access-key.</p>"
+          }
+          ,
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Lbb woocommerce orders unique token.</p>"
+          }
+                  ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Lbb woocommerce orders Cant be Accessed permission name : api_lbb_woocommerce_orders_add"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Order_id",
+            "description": "<p>Optional order_id of Lbb woocommerce orderss .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Order_key",
+            "description": "<p>Optional order_key of Lbb woocommerce orderss Input Order Key Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_id",
+            "description": "<p>Optional customer_id of Lbb woocommerce orderss Input Customer Id Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_index",
+            "description": "<p>Optional billing_index of Lbb woocommerce orderss Input Billing Index Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_first_name",
+            "description": "<p>Optional billing_first_name of Lbb woocommerce orderss Input Billing First Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_last_name",
+            "description": "<p>Optional billing_last_name of Lbb woocommerce orderss Input Billing Last Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_company",
+            "description": "<p>Optional billing_company of Lbb woocommerce orderss Input Billing Company Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_address_1",
+            "description": "<p>Optional billing_address_1 of Lbb woocommerce orderss Input Billing Address 1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_address_2",
+            "description": "<p>Optional billing_address_2 of Lbb woocommerce orderss Input Billing Address 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_city",
+            "description": "<p>Optional billing_city of Lbb woocommerce orderss Input Billing City Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_state",
+            "description": "<p>Optional billing_state of Lbb woocommerce orderss Input Billing State Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_postcode",
+            "description": "<p>Optional billing_postcode of Lbb woocommerce orderss Input Billing Postcode Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_country",
+            "description": "<p>Optional billing_country of Lbb woocommerce orderss Input Billing Country Max Length : 2..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_email",
+            "description": "<p>Optional billing_email of Lbb woocommerce orderss Input Billing Email Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_phone",
+            "description": "<p>Optional billing_phone of Lbb woocommerce orderss Input Billing Phone Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_index",
+            "description": "<p>Optional shipping_index of Lbb woocommerce orderss Input Shipping Index Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_first_name",
+            "description": "<p>Optional shipping_first_name of Lbb woocommerce orderss Input Shipping First Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_last_name",
+            "description": "<p>Optional shipping_last_name of Lbb woocommerce orderss Input Shipping Last Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_company",
+            "description": "<p>Optional shipping_company of Lbb woocommerce orderss Input Shipping Company Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_address_1",
+            "description": "<p>Optional shipping_address_1 of Lbb woocommerce orderss Input Shipping Address 1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_address_2",
+            "description": "<p>Optional shipping_address_2 of Lbb woocommerce orderss Input Shipping Address 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_city",
+            "description": "<p>Optional shipping_city of Lbb woocommerce orderss Input Shipping City Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_state",
+            "description": "<p>Optional shipping_state of Lbb woocommerce orderss Input Shipping State Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_postcode",
+            "description": "<p>Optional shipping_postcode of Lbb woocommerce orderss Input Shipping Postcode Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_country",
+            "description": "<p>Optional shipping_country of Lbb woocommerce orderss Input Shipping Country Max Length : 2..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Payment_method",
+            "description": "<p>Optional payment_method of Lbb woocommerce orderss Input Payment Method Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Payment_method_title",
+            "description": "<p>Optional payment_method_title of Lbb woocommerce orderss Input Payment Method Title Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Discount_total",
+            "description": "<p>Optional discount_total of Lbb woocommerce orderss Input Discount Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Discount_tax",
+            "description": "<p>Optional discount_tax of Lbb woocommerce orderss Input Discount Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_total",
+            "description": "<p>Optional shipping_total of Lbb woocommerce orderss Input Shipping Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_tax",
+            "description": "<p>Optional shipping_tax of Lbb woocommerce orderss Input Shipping Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Cart_tax",
+            "description": "<p>Optional cart_tax of Lbb woocommerce orderss Input Cart Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Total",
+            "description": "<p>Optional total of Lbb woocommerce orderss Input Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Version",
+            "description": "<p>Optional version of Lbb woocommerce orderss Input Version Max Length : 16..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Currency",
+            "description": "<p>Optional currency of Lbb woocommerce orderss Input Currency Max Length : 3..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Prices_include_tax",
+            "description": "<p>Optional prices_include_tax of Lbb woocommerce orderss Input Prices Include Tax Max Length : 3..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Transaction_id",
+            "description": "<p>Optional transaction_id of Lbb woocommerce orderss Input Transaction Id Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_ip_address",
+            "description": "<p>Optional customer_ip_address of Lbb woocommerce orderss Input Customer Ip Address Max Length : 40..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_user_agent",
+            "description": "<p>Optional customer_user_agent of Lbb woocommerce orderss .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Created_via",
+            "description": "<p>Optional created_via of Lbb woocommerce orderss Input Created Via Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Date_completed",
+            "description": "<p>Optional date_completed of Lbb woocommerce orderss Input Date Completed Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Date_paid",
+            "description": "<p>Optional date_paid of Lbb woocommerce orderss Input Date Paid Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Cart_hash",
+            "description": "<p>Optional cart_hash of Lbb woocommerce orderss Input Cart Hash Max Length : 32..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Amount",
+            "description": "<p>Optional amount of Lbb woocommerce orderss Input Amount Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Refunded_by",
+            "description": "<p>Optional refunded_by of Lbb woocommerce orderss Input Refunded By Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Reason",
+            "description": "<p>Optional reason of Lbb woocommerce orderss .</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Lbb_woocommerce_orders.php",
+    "groupTitle": "Lbb woocommerce orders"
+  },
+  {
+    "type": "get",
+    "url": "/lbb_woocommerce_orders/all",
+    "title": "Get all Lbb woocommerce orderss.",
+    "version": "0.1.0",
+    "name": "Alllbb_woocommerce_orders",
+    "group": "lbb_woocommerce_orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Lbb woocommerce orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Lbb woocommerce orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "{} Cant be Accessed permission name : api_Lbb woocommerce orders_all"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+         
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Field",
+            "defaultValue": "All Field",
+            "description": "<p>Optional field of Lbb woocommerce orderss.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Start",
+            "defaultValue": "0",
+            "description": "<p>Optional start index of Lbb woocommerce orderss.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Limit",
+            "defaultValue": "10",
+            "description": "<p>Optional limit data of Lbb woocommerce orderss.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Lbb woocommerce orders.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "NoDataLbb woocommerce orders",
+            "description": "<p>Lbb woocommerce orders data is nothing.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Lbb woocommerce orders.php",
+    "groupTitle": "Lbb woocommerce orders"
+  },
+  {
+    "type": "post",
+    "url": "/Lbb woocommerce orders/delete",
+    "title": "Delete Lbb woocommerce orders.",
+    "version": "0.1.0",
+    "name": "Deletelbb_woocommerce_orders",
+    "group": "lbb_woocommerce_orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Lbb woocommerce orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Lbb woocommerce orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Lbb woocommerce orders Cant be Accessed permission name : api_Lbb woocommerce orders_delete"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Lbb woocommerce orderss .</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Lbb woocommerce orders.php",
+    "groupTitle": "Lbb woocommerce orders"
+  },
+  {
+    "type": "get",
+    "url": "/Lbb woocommerce orders/detail",
+    "title": "Detail Lbb woocommerce orders.",
+    "version": "0.1.0",
+    "name": "Detaillbb_woocommerce_orders",
+    "group": "lbb_woocommerce_orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Lbb woocommerce orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Lbb woocommerce orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Lbb woocommerce orders Cant be Accessed permission name : api_Lbb woocommerce orders_detail"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Lbb woocommerce orderss.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Lbb woocommerce orders.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "Lbb woocommerce ordersNotFound",
+            "description": "<p>Lbb woocommerce orders data is not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Lbb woocommerce orders.php",
+    "groupTitle": "Lbb woocommerce orders"
+  },
+  {
+    "type": "post",
+    "url": "/Lbb woocommerce orders/update",
+    "title": "Update Lbb woocommerce orders.",
+    "version": "0.1.0",
+    "name": "Updatelbb_woocommerce_orders",
+    "group": "lbb_woocommerce_orders",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Lbb woocommerce orderss unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Lbb woocommerce orderss unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Lbb woocommerce orders Cant be Accessed permission name : api_Lbb woocommerce orders_update"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Order_id",
+            "description": "<p>Optional order_id of Lbb woocommerce orderss .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Order_key",
+            "description": "<p>Optional order_key of Lbb woocommerce orderss Input Order Key Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_id",
+            "description": "<p>Optional customer_id of Lbb woocommerce orderss Input Customer Id Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_index",
+            "description": "<p>Optional billing_index of Lbb woocommerce orderss Input Billing Index Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_first_name",
+            "description": "<p>Optional billing_first_name of Lbb woocommerce orderss Input Billing First Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_last_name",
+            "description": "<p>Optional billing_last_name of Lbb woocommerce orderss Input Billing Last Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_company",
+            "description": "<p>Optional billing_company of Lbb woocommerce orderss Input Billing Company Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_address_1",
+            "description": "<p>Optional billing_address_1 of Lbb woocommerce orderss Input Billing Address 1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_address_2",
+            "description": "<p>Optional billing_address_2 of Lbb woocommerce orderss Input Billing Address 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_city",
+            "description": "<p>Optional billing_city of Lbb woocommerce orderss Input Billing City Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_state",
+            "description": "<p>Optional billing_state of Lbb woocommerce orderss Input Billing State Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_postcode",
+            "description": "<p>Optional billing_postcode of Lbb woocommerce orderss Input Billing Postcode Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_country",
+            "description": "<p>Optional billing_country of Lbb woocommerce orderss Input Billing Country Max Length : 2..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_email",
+            "description": "<p>Optional billing_email of Lbb woocommerce orderss Input Billing Email Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Billing_phone",
+            "description": "<p>Optional billing_phone of Lbb woocommerce orderss Input Billing Phone Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_index",
+            "description": "<p>Optional shipping_index of Lbb woocommerce orderss Input Shipping Index Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_first_name",
+            "description": "<p>Optional shipping_first_name of Lbb woocommerce orderss Input Shipping First Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_last_name",
+            "description": "<p>Optional shipping_last_name of Lbb woocommerce orderss Input Shipping Last Name Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_company",
+            "description": "<p>Optional shipping_company of Lbb woocommerce orderss Input Shipping Company Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_address_1",
+            "description": "<p>Optional shipping_address_1 of Lbb woocommerce orderss Input Shipping Address 1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_address_2",
+            "description": "<p>Optional shipping_address_2 of Lbb woocommerce orderss Input Shipping Address 2 Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_city",
+            "description": "<p>Optional shipping_city of Lbb woocommerce orderss Input Shipping City Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_state",
+            "description": "<p>Optional shipping_state of Lbb woocommerce orderss Input Shipping State Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_postcode",
+            "description": "<p>Optional shipping_postcode of Lbb woocommerce orderss Input Shipping Postcode Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_country",
+            "description": "<p>Optional shipping_country of Lbb woocommerce orderss Input Shipping Country Max Length : 2..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Payment_method",
+            "description": "<p>Optional payment_method of Lbb woocommerce orderss Input Payment Method Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Payment_method_title",
+            "description": "<p>Optional payment_method_title of Lbb woocommerce orderss Input Payment Method Title Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Discount_total",
+            "description": "<p>Optional discount_total of Lbb woocommerce orderss Input Discount Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Discount_tax",
+            "description": "<p>Optional discount_tax of Lbb woocommerce orderss Input Discount Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_total",
+            "description": "<p>Optional shipping_total of Lbb woocommerce orderss Input Shipping Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Shipping_tax",
+            "description": "<p>Optional shipping_tax of Lbb woocommerce orderss Input Shipping Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Cart_tax",
+            "description": "<p>Optional cart_tax of Lbb woocommerce orderss Input Cart Tax Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Total",
+            "description": "<p>Optional total of Lbb woocommerce orderss Input Total Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Version",
+            "description": "<p>Optional version of Lbb woocommerce orderss Input Version Max Length : 16..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Currency",
+            "description": "<p>Optional currency of Lbb woocommerce orderss Input Currency Max Length : 3..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Prices_include_tax",
+            "description": "<p>Optional prices_include_tax of Lbb woocommerce orderss Input Prices Include Tax Max Length : 3..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Transaction_id",
+            "description": "<p>Optional transaction_id of Lbb woocommerce orderss Input Transaction Id Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_ip_address",
+            "description": "<p>Optional customer_ip_address of Lbb woocommerce orderss Input Customer Ip Address Max Length : 40..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Customer_user_agent",
+            "description": "<p>Optional customer_user_agent of Lbb woocommerce orderss .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Created_via",
+            "description": "<p>Optional created_via of Lbb woocommerce orderss Input Created Via Max Length : 200..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Date_completed",
+            "description": "<p>Optional date_completed of Lbb woocommerce orderss Input Date Completed Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Date_paid",
+            "description": "<p>Optional date_paid of Lbb woocommerce orderss Input Date Paid Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Cart_hash",
+            "description": "<p>Optional cart_hash of Lbb woocommerce orderss Input Cart Hash Max Length : 32..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Amount",
+            "description": "<p>Optional amount of Lbb woocommerce orderss Input Amount Max Length : 100..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Refunded_by",
+            "description": "<p>Optional refunded_by of Lbb woocommerce orderss Input Refunded By Max Length : 20..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Reason",
+            "description": "<p>Optional reason of Lbb woocommerce orderss .</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Lbb woocommerce orders.php",
+    "groupTitle": "Lbb woocommerce orders"
+  }

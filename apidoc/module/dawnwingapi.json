@@ -1,0 +1,1433 @@
+{
+    "type": "post",
+    "url": "/dawnwingapi/add",
+    "title": "Add Dawnwingapi.",
+    "version": "0.1.0",
+    "name": "Adddawnwingapi",
+    "group": "dawnwingapi",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Dawnwingapi unique access-key.</p>"
+          }
+                  ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Dawnwingapi Cant be Accessed permission name : api_dawnwingapi_add"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Id",
+            "description": "<p>Optional id of Dawnwingapis Input Id Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "PostID",
+            "description": "<p>Optional PostID of Dawnwingapis Input PostID Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WaybillNo",
+            "description": "<p>Optional WaybillNo of Dawnwingapis .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAccNo",
+            "description": "<p>Optional SendAccNo of Dawnwingapis Input SendAccNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendSite",
+            "description": "<p>Optional SendSite of Dawnwingapis Input SendSite Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendCompany",
+            "description": "<p>Optional SendCompany of Dawnwingapis Input SendCompany Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd1",
+            "description": "<p>Optional SendAdd1 of Dawnwingapis Input SendAdd1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd2",
+            "description": "<p>Optional SendAdd2 of Dawnwingapis Input SendAdd2 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd3",
+            "description": "<p>Optional SendAdd3 of Dawnwingapis Input SendAdd3 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd4",
+            "description": "<p>Optional SendAdd4 of Dawnwingapis Input SendAdd4 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd5",
+            "description": "<p>Optional SendAdd5 of Dawnwingapis Input SendAdd5 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendContactPerson",
+            "description": "<p>Optional SendContactPerson of Dawnwingapis Input SendContactPerson Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendHomeTel",
+            "description": "<p>Optional SendHomeTel of Dawnwingapis Input SendHomeTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendWorkTel",
+            "description": "<p>Optional SendWorkTel of Dawnwingapis Input SendWorkTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendCell",
+            "description": "<p>Optional SendCell of Dawnwingapis Input SendCell Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecCompany",
+            "description": "<p>Optional RecCompany of Dawnwingapis Input RecCompany Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd1",
+            "description": "<p>Optional RecAdd1 of Dawnwingapis Input RecAdd1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd2",
+            "description": "<p>Optional RecAdd2 of Dawnwingapis Input RecAdd2 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd3",
+            "description": "<p>Optional RecAdd3 of Dawnwingapis Input RecAdd3 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd4",
+            "description": "<p>Optional RecAdd4 of Dawnwingapis Input RecAdd4 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd5",
+            "description": "<p>Optional RecAdd5 of Dawnwingapis Input RecAdd5 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd6",
+            "description": "<p>Optional RecAdd6 of Dawnwingapis Input RecAdd6 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd7",
+            "description": "<p>Optional RecAdd7 of Dawnwingapis Input RecAdd7 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecContactPerson",
+            "description": "<p>Optional RecContactPerson of Dawnwingapis Input RecContactPerson Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecHomeTel",
+            "description": "<p>Optional RecHomeTel of Dawnwingapis Input RecHomeTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecWorkTel",
+            "description": "<p>Optional RecWorkTel of Dawnwingapis Input RecWorkTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecCell",
+            "description": "<p>Optional RecCell of Dawnwingapis Input RecCell Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SpecialInstructions",
+            "description": "<p>Optional SpecialInstructions of Dawnwingapis Input SpecialInstructions Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ServiceType",
+            "description": "<p>Optional ServiceType of Dawnwingapis Input ServiceType Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "TotQTY",
+            "description": "<p>Optional TotQTY of Dawnwingapis Input TotQTY Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "TotMass",
+            "description": "<p>Optional TotMass of Dawnwingapis Input TotMass Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Insurance",
+            "description": "<p>Optional Insurance of Dawnwingapis Input Insurance Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InsuranceValue",
+            "description": "<p>Optional InsuranceValue of Dawnwingapis Input InsuranceValue Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CustomerRef",
+            "description": "<p>Optional CustomerRef of Dawnwingapis Input CustomerRef Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "StoreCode",
+            "description": "<p>Optional StoreCode of Dawnwingapis Input StoreCode Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SecurityStamp",
+            "description": "<p>Optional SecurityStamp of Dawnwingapis Input SecurityStamp Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RequiredDocs",
+            "description": "<p>Optional RequiredDocs of Dawnwingapis Input RequiredDocs Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WaybillInstructions",
+            "description": "<p>Optional WaybillInstructions of Dawnwingapis Input WaybillInstructions Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InstructionCode",
+            "description": "<p>Optional InstructionCode of Dawnwingapis Input InstructionCode Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "IsSecureDelivery",
+            "description": "<p>Optional IsSecureDelivery of Dawnwingapis Input IsSecureDelivery Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "VerificationNumbers",
+            "description": "<p>Optional VerificationNumbers of Dawnwingapis Input VerificationNumbers Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "GenerateSecurePin",
+            "description": "<p>Optional GenerateSecurePin of Dawnwingapis Input GenerateSecurePin Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CollectionNo",
+            "description": "<p>Optional CollectionNo of Dawnwingapis Input CollectionNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InvoiceRef",
+            "description": "<p>Optional invoiceRef of Dawnwingapis Input InvoiceRef Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CompleteWaybillAfterSave",
+            "description": "<p>Optional CompleteWaybillAfterSave of Dawnwingapis Input CompleteWaybillAfterSave Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsWaybillNo",
+            "description": "<p>Optional ParcelsWaybillNo of Dawnwingapis Input ParcelsWaybillNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsLength",
+            "description": "<p>Optional ParcelsLength of Dawnwingapis Input ParcelsLength Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsHeight",
+            "description": "<p>Optional ParcelsHeight of Dawnwingapis Input ParcelsHeight Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsWidth",
+            "description": "<p>Optional ParcelsWidth of Dawnwingapis Input ParcelsWidth Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsMass",
+            "description": "<p>Optional ParcelsMass of Dawnwingapis Input ParcelsMass Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelDescription",
+            "description": "<p>Optional ParcelDescription of Dawnwingapis Input ParcelDescription Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelNo",
+            "description": "<p>Optional ParcelNo of Dawnwingapis Input ParcelNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelCount",
+            "description": "<p>Optional ParcelCount of Dawnwingapis Input ParcelCount Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderStatus",
+            "description": "<p>Optional OrderStatus of Dawnwingapis Input OrderStatus Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderDiscountTotal",
+            "description": "<p>Optional OrderDiscountTotal of Dawnwingapis Input OrderDiscountTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderDiscountTax",
+            "description": "<p>Optional OrderDiscountTax of Dawnwingapis Input OrderDiscountTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderShippingTotal",
+            "description": "<p>Optional OrderShippingTotal of Dawnwingapis Input OrderShippingTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderShippingTax",
+            "description": "<p>Optional OrderShippingTax of Dawnwingapis Input OrderShippingTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderTotal",
+            "description": "<p>Optional OrderTotal of Dawnwingapis Input OrderTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderTotalTax",
+            "description": "<p>Optional OrderTotalTax of Dawnwingapis Input OrderTotalTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderPaymentMethod",
+            "description": "<p>Optional OrderPaymentMethod of Dawnwingapis Input OrderPaymentMethod Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderPaymentMethodTitle",
+            "description": "<p>Optional OrderPaymentMethodTitle of Dawnwingapis Input OrderPaymentMethodTitle Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderCustomerID",
+            "description": "<p>Optional OrderCustomerID of Dawnwingapis Input OrderCustomerID Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WayBill",
+            "description": "<p>Optional WayBill of Dawnwingapis Input WayBill Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderItems",
+            "description": "<p>Optional OrderItems of Dawnwingapis Input OrderItems Max Length : 2555..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Company",
+            "description": "<p>Optional Company of Dawnwingapis Input Company Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderModified",
+            "description": "<p>Optional OrderModified of Dawnwingapis Input OrderModified Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderCreated",
+            "description": "<p>Optional OrderCreated of Dawnwingapis Input OrderCreated Max Length : 255..</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Dawnwingapi.php",
+    "groupTitle": "Dawnwingapi"
+  },
+  {
+    "type": "get",
+    "url": "/dawnwingapi/all",
+    "title": "Get all Dawnwingapis.",
+    "version": "0.1.0",
+    "name": "Alldawnwingapi",
+    "group": "dawnwingapi",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Dawnwingapis unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Dawnwingapis unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "{} Cant be Accessed permission name : api_Dawnwingapi_all"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+         
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Field",
+            "defaultValue": "All Field",
+            "description": "<p>Optional field of Dawnwingapis.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Start",
+            "defaultValue": "0",
+            "description": "<p>Optional start index of Dawnwingapis.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Limit",
+            "defaultValue": "10",
+            "description": "<p>Optional limit data of Dawnwingapis.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Dawnwingapi.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "NoDataDawnwingapi",
+            "description": "<p>Dawnwingapi data is nothing.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Dawnwingapi.php",
+    "groupTitle": "Dawnwingapi"
+  },
+  {
+    "type": "post",
+    "url": "/Dawnwingapi/delete",
+    "title": "Delete Dawnwingapi.",
+    "version": "0.1.0",
+    "name": "Deletedawnwingapi",
+    "group": "dawnwingapi",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Dawnwingapis unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Dawnwingapis unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Dawnwingapi Cant be Accessed permission name : api_Dawnwingapi_delete"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Dawnwingapis .</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Dawnwingapi.php",
+    "groupTitle": "Dawnwingapi"
+  },
+  {
+    "type": "get",
+    "url": "/Dawnwingapi/detail",
+    "title": "Detail Dawnwingapi.",
+    "version": "0.1.0",
+    "name": "Detaildawnwingapi",
+    "group": "dawnwingapi",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Dawnwingapis unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Dawnwingapis unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Dawnwingapi Cant be Accessed permission name : api_Dawnwingapi_detail"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "Id",
+            "description": "<p>Mandatory id of Dawnwingapis.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "Data",
+            "description": "<p>data of Dawnwingapi.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "DawnwingapiNotFound",
+            "description": "<p>Dawnwingapi data is not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Dawnwingapi.php",
+    "groupTitle": "Dawnwingapi"
+  },
+  {
+    "type": "post",
+    "url": "/Dawnwingapi/update",
+    "title": "Update Dawnwingapi.",
+    "version": "0.1.0",
+    "name": "Updatedawnwingapi",
+    "group": "dawnwingapi",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Api-Key",
+            "description": "<p>Dawnwingapis unique access-key.</p>"
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "X-Token",
+            "description": "<p>Dawnwingapis unique token.</p>"
+          }
+        ]
+      }
+    },
+    "permission": [
+      {
+        "name": "Dawnwingapi Cant be Accessed permission name : api_Dawnwingapi_update"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+                    {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Id",
+            "description": "<p>Optional id of Dawnwingapis Input Id Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "PostID",
+            "description": "<p>Optional PostID of Dawnwingapis Input PostID Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WaybillNo",
+            "description": "<p>Optional WaybillNo of Dawnwingapis .</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAccNo",
+            "description": "<p>Optional SendAccNo of Dawnwingapis Input SendAccNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendSite",
+            "description": "<p>Optional SendSite of Dawnwingapis Input SendSite Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendCompany",
+            "description": "<p>Optional SendCompany of Dawnwingapis Input SendCompany Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd1",
+            "description": "<p>Optional SendAdd1 of Dawnwingapis Input SendAdd1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd2",
+            "description": "<p>Optional SendAdd2 of Dawnwingapis Input SendAdd2 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd3",
+            "description": "<p>Optional SendAdd3 of Dawnwingapis Input SendAdd3 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd4",
+            "description": "<p>Optional SendAdd4 of Dawnwingapis Input SendAdd4 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendAdd5",
+            "description": "<p>Optional SendAdd5 of Dawnwingapis Input SendAdd5 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendContactPerson",
+            "description": "<p>Optional SendContactPerson of Dawnwingapis Input SendContactPerson Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendHomeTel",
+            "description": "<p>Optional SendHomeTel of Dawnwingapis Input SendHomeTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendWorkTel",
+            "description": "<p>Optional SendWorkTel of Dawnwingapis Input SendWorkTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SendCell",
+            "description": "<p>Optional SendCell of Dawnwingapis Input SendCell Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecCompany",
+            "description": "<p>Optional RecCompany of Dawnwingapis Input RecCompany Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd1",
+            "description": "<p>Optional RecAdd1 of Dawnwingapis Input RecAdd1 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd2",
+            "description": "<p>Optional RecAdd2 of Dawnwingapis Input RecAdd2 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd3",
+            "description": "<p>Optional RecAdd3 of Dawnwingapis Input RecAdd3 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd4",
+            "description": "<p>Optional RecAdd4 of Dawnwingapis Input RecAdd4 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd5",
+            "description": "<p>Optional RecAdd5 of Dawnwingapis Input RecAdd5 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd6",
+            "description": "<p>Optional RecAdd6 of Dawnwingapis Input RecAdd6 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecAdd7",
+            "description": "<p>Optional RecAdd7 of Dawnwingapis Input RecAdd7 Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecContactPerson",
+            "description": "<p>Optional RecContactPerson of Dawnwingapis Input RecContactPerson Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecHomeTel",
+            "description": "<p>Optional RecHomeTel of Dawnwingapis Input RecHomeTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecWorkTel",
+            "description": "<p>Optional RecWorkTel of Dawnwingapis Input RecWorkTel Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RecCell",
+            "description": "<p>Optional RecCell of Dawnwingapis Input RecCell Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SpecialInstructions",
+            "description": "<p>Optional SpecialInstructions of Dawnwingapis Input SpecialInstructions Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ServiceType",
+            "description": "<p>Optional ServiceType of Dawnwingapis Input ServiceType Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "TotQTY",
+            "description": "<p>Optional TotQTY of Dawnwingapis Input TotQTY Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "TotMass",
+            "description": "<p>Optional TotMass of Dawnwingapis Input TotMass Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Insurance",
+            "description": "<p>Optional Insurance of Dawnwingapis Input Insurance Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InsuranceValue",
+            "description": "<p>Optional InsuranceValue of Dawnwingapis Input InsuranceValue Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CustomerRef",
+            "description": "<p>Optional CustomerRef of Dawnwingapis Input CustomerRef Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "StoreCode",
+            "description": "<p>Optional StoreCode of Dawnwingapis Input StoreCode Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "SecurityStamp",
+            "description": "<p>Optional SecurityStamp of Dawnwingapis Input SecurityStamp Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "RequiredDocs",
+            "description": "<p>Optional RequiredDocs of Dawnwingapis Input RequiredDocs Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WaybillInstructions",
+            "description": "<p>Optional WaybillInstructions of Dawnwingapis Input WaybillInstructions Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InstructionCode",
+            "description": "<p>Optional InstructionCode of Dawnwingapis Input InstructionCode Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "IsSecureDelivery",
+            "description": "<p>Optional IsSecureDelivery of Dawnwingapis Input IsSecureDelivery Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "VerificationNumbers",
+            "description": "<p>Optional VerificationNumbers of Dawnwingapis Input VerificationNumbers Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "GenerateSecurePin",
+            "description": "<p>Optional GenerateSecurePin of Dawnwingapis Input GenerateSecurePin Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CollectionNo",
+            "description": "<p>Optional CollectionNo of Dawnwingapis Input CollectionNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "InvoiceRef",
+            "description": "<p>Optional invoiceRef of Dawnwingapis Input InvoiceRef Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "CompleteWaybillAfterSave",
+            "description": "<p>Optional CompleteWaybillAfterSave of Dawnwingapis Input CompleteWaybillAfterSave Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsWaybillNo",
+            "description": "<p>Optional ParcelsWaybillNo of Dawnwingapis Input ParcelsWaybillNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsLength",
+            "description": "<p>Optional ParcelsLength of Dawnwingapis Input ParcelsLength Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsHeight",
+            "description": "<p>Optional ParcelsHeight of Dawnwingapis Input ParcelsHeight Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsWidth",
+            "description": "<p>Optional ParcelsWidth of Dawnwingapis Input ParcelsWidth Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelsMass",
+            "description": "<p>Optional ParcelsMass of Dawnwingapis Input ParcelsMass Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelDescription",
+            "description": "<p>Optional ParcelDescription of Dawnwingapis Input ParcelDescription Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelNo",
+            "description": "<p>Optional ParcelNo of Dawnwingapis Input ParcelNo Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "ParcelCount",
+            "description": "<p>Optional ParcelCount of Dawnwingapis Input ParcelCount Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderStatus",
+            "description": "<p>Optional OrderStatus of Dawnwingapis Input OrderStatus Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderDiscountTotal",
+            "description": "<p>Optional OrderDiscountTotal of Dawnwingapis Input OrderDiscountTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderDiscountTax",
+            "description": "<p>Optional OrderDiscountTax of Dawnwingapis Input OrderDiscountTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderShippingTotal",
+            "description": "<p>Optional OrderShippingTotal of Dawnwingapis Input OrderShippingTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderShippingTax",
+            "description": "<p>Optional OrderShippingTax of Dawnwingapis Input OrderShippingTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderTotal",
+            "description": "<p>Optional OrderTotal of Dawnwingapis Input OrderTotal Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderTotalTax",
+            "description": "<p>Optional OrderTotalTax of Dawnwingapis Input OrderTotalTax Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderPaymentMethod",
+            "description": "<p>Optional OrderPaymentMethod of Dawnwingapis Input OrderPaymentMethod Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderPaymentMethodTitle",
+            "description": "<p>Optional OrderPaymentMethodTitle of Dawnwingapis Input OrderPaymentMethodTitle Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderCustomerID",
+            "description": "<p>Optional OrderCustomerID of Dawnwingapis Input OrderCustomerID Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "WayBill",
+            "description": "<p>Optional WayBill of Dawnwingapis Input WayBill Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderItems",
+            "description": "<p>Optional OrderItems of Dawnwingapis Input OrderItems Max Length : 2555..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "Company",
+            "description": "<p>Optional Company of Dawnwingapis Input Company Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderModified",
+            "description": "<p>Optional OrderModified of Dawnwingapis Input OrderModified Max Length : 255..</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "OrderCreated",
+            "description": "<p>Optional OrderCreated of Dawnwingapis Input OrderCreated Max Length : 255..</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "Status",
+            "description": "<p>status response api.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "Message",
+            "description": "<p>message response api.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "ValidationError",
+            "description": "<p>Error validation.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 403 Not Acceptable",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "application/controllers/api/Dawnwingapi.php",
+    "groupTitle": "Dawnwingapi"
+  }
